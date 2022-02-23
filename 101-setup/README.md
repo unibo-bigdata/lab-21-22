@@ -42,7 +42,7 @@ Follow these steps to activate the S3 service and start loading some datasets.
 - From the *console home*, click on "Services" (top-left corner) > "S3"
 - Create a bucket (it is a namespace for folders and files)
   - Its name must be unique within S3
-  - Suggestion: "unibo_bd2122_[username]" where [username] is the first letter of your first name, followed by your last name (e.g., "unibo_bd2122_egallinucci")
+  - Suggestion: "unibo-bd2122-[username]" where [username] is the first letter of your first name, followed by your last name (e.g., "unibo-bd2122-egallinucci")
 - Enter the newly created bucket and create a folder called "datasets"
 - Enter the newly created folder and upload the following datasets:
   - All file in the "datasets" folder of this repo
