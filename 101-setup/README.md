@@ -83,4 +83,4 @@ The downloaded .ppk file will be your **Key pair**.
 
 In the following classes you will be required to design applications that access AWS services instantiated in your Lab (e.g., a Spark application that loads data from S3). In order to do it, you will need the access key and secret.
 
-Go to the *Bookmarked page*, click "Aws Details" (top-right corner), then "Show" next to "AWS CLI". Copy-paste the aws_access_key_id and aws_secret_access_key (not just the values, but the whole key=value) into a file called *aws_credentials.txt*. These will be your **AWS Credentials**.
+Go to the *Bookmarked page*, click "Aws Details" (top-right corner), then "Show" next to "AWS CLI". Copy-paste the values of aws_access_key_id and aws_secret_access_key (just the values) into a file called *aws_credentials.txt*. These will be your **AWS Credentials**.
