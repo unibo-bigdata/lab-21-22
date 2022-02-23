@@ -66,15 +66,21 @@ All these files will continue to be available even after the Lab is ended.
 
 
 
-## 101-3 Enable SSH access to the Lab's machines (ppk)
+## 101-3 Enable SSH access to the Lab's machines (key pair)
 
 In the following classes you will be required to instantiate machines through the Lab and access them via SSH (e.g., Putty). In order to do it, you will need a Private Key Files (.ppk).
 
-To download it, go to the *Console home*, click "Aws Details" (top-right corner), then "Download PPK". This will be your **AWS PPK**.
+From the *Console home*, select the EC2 service, then go to "Network and security" > "Key pairs", then click on "Create a key pair":
+  - Put some name (e.g., "bigdata")
+  - Choose .ppk as the format
+  - Create the key pair > the .ppk file will be automatically downloaded
+    - Do not lose it, or you will need to create a new key pair!
+
+The downloaded .ppk file will be your **Key pair**.
 
 
 ## 101-4 Enable application access to the Lab's services (access key and secret)
 
 In the following classes you will be required to design applications that access AWS services instantiated in your Lab (e.g., a Spark application that loads data from S3). In order to do it, you will need the access key and secret.
 
-Go to the *Console home*, click "Aws Details" (top-right corner), then "Show" next to "AWS CLI". Copy-paste the aws_access_key_id and aws_secret_access_key (not just the values, but the whole key=value) into a file called *aws_credentials.txt*. These will be your **AWS Credentials**.
+Go to the *Bookmarked page*, click "Aws Details" (top-right corner), then "Show" next to "AWS CLI". Copy-paste the aws_access_key_id and aws_secret_access_key (not just the values, but the whole key=value) into a file called *aws_credentials.txt*. These will be your **AWS Credentials**.
