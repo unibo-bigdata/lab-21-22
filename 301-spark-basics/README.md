@@ -21,7 +21,8 @@ The only configuration differing from 201-1 is the list of services.
     - Choose the *Key pair* created in 101-3
     
 After creating the cluster, click on "Notebook" on the left panel, then "Create notebook".
-- In the configuration parameters, make sure that you associate the notebook to the created cluster.     
+- In the configuration parameters, make sure that you associate the notebook to the created cluster.
+- As "AWS Service Role" use "**LabRole**"
 
 ## 301-2 Running a sample Spark job
 
